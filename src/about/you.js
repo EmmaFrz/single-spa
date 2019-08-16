@@ -16,19 +16,19 @@ const handleSubmit = (event) => {
 
 const Data = (props) => {
     return(
-      <div>
-        <a href="/angular" onClick={navigateToUrl}>
+      <Router>
+        <Link to="/angular" onClick={navigateToUrl}>
           Continuar a Angular
-        </a>
+        </Link>
         <br/>
-        <a href="/home" onClick={navigateToUrl}>
+        <Link to="/home" onClick={navigateToUrl}>
           Continuar a React
-        </a> 
+        </Link> 
         <br/>
-        <a href="/" onClick={navigateToUrl}>
+        <Link to="/" onClick={navigateToUrl}>
           Continuar a Home
-        </a>                
-      </div>
+        </Link>                
+      </Router>
     )
 }
 

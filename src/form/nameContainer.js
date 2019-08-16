@@ -13,7 +13,7 @@ const NameForm = (props) => {
 			<form onSubmit={handleSubmit}>
 				<label>Nombre</label>
 				<input name="name"/>
-				<input type="submit" class="waves-effect waves-light btn blue lighten-3"/>
+				<input type="submit" className="waves-effect waves-light btn blue lighten-3"/>
 			</form>
 		</div>
 	)

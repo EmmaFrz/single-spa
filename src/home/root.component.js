@@ -1,5 +1,4 @@
 import React from "react";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,11 +7,11 @@ import {
   Redirect
 } from "react-router-dom";
 import Home from './homeContainer';
-const AnimationExample = () => (
+const HomeContainer = () => (
   <Router>
     <Route exact path='/home' component={Home}/>    
   </Router>
 );
 
 
-export default AnimationExample;
+export default HomeContainer;
